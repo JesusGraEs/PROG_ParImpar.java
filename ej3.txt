@@ -1,0 +1,12 @@
+PROGRAMA parImpar
+VARIABLE 
+     ENTERO a
+INICIO
+	 ESCRIBIR "Dame un número"
+	 LEER a
+	 SI a%2 = 0  ENTONCES
+	     ESCRIBIR "El número es par"
+	 SI NO 
+	     ESCRIBIR "El número es impar"
+	 FIN SI
+FIN
